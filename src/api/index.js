@@ -4,8 +4,9 @@ const instance = axios.create({
 	//baseURL: 'http://localhost:8090/',
 	//baseURL: 'http://20.196.147.98:8090/',
 	//baseURL: 'http://10.10.1.4:8090/',
-	baseURL: '/api',
+	//baseURL: '/api',
 	//baseURL: '4.230.81.56/',
+	baseURL: 'http://asp01-f4hvd6dccpbpawhr.koreacentral-01.azurewebsites.net',
 })
 
 instance.defaults.headers.post['Content-Type'] =
